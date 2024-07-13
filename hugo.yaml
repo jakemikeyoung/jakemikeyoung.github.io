@@ -23,7 +23,7 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "Jake's Blog"
+    title: "Jacob Young"
     weight: 1
   bn:
     languageCode: bn
