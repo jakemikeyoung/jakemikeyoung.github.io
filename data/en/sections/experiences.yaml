@@ -2,7 +2,7 @@
 section:
   name: Experiences
   id: experiences
-  #enable: true
+  enable: true
   weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -11,63 +11,98 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: Aleut Federal
+    url: "https://aleutfederal.com/about/"
+    location: Lackland AFB
+    #logo: /images/sections/experiences/company1.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  #  overview: Aleut Federal.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Systems Administrator
+    start: July 2024
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Installs new software releases, system upgrades, evaluate and install patches, and resolve software related problems.
+    - Works closely with network professionals and IT personnel to update cyber security measures, install hardware or software devices and troubleshoot problems.
+    - Performs configuration, management, and troubleshooting.
+    - Establishes work standards, methods, and controls for preventative, scheduled, and unscheduled maintenance actions.
+    - Provides technical support to Service Desk Personnel and CSTs who provide administration support to their end-users workstations
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+  #- designation: Junior Software Engineer
+  #  start: Nov 2017
+  #  end: Oct 2019
+  # responsibilities:
+  #  - Implement and test xyz feature for abc tool.
+  #  - Support client for abc tool.
+  #  - Learn k,d,w technology for xyz.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: SysCom
+    url: "https://syscom1.com/"
+    location: 502 Comm Squadron, Lackland AFB
+   # logo: /images/sections/experiences/company2.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+   # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Contract site lead / Client Systems Technician
+    start: October 2023
+    end: July 2024
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Resolved system, network, and peripheral device issues for customers.
+    - Systems / Active Directory administration, hardware installation, support, and maintenance.
+    - Managed customer support workflows and coordinated with external offices.
+    - As site lead, acted as primary interface for government representatives. Conducted requirements coordination, monthly surveillance reporting, ensured contractual compliance and management of 18 prime and sub-contract employees.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    name: R&K Enterprise Solutions
+    url: "https://randkes.com/home-1"
+    location: 502 Comm Squadron, Lackland AFB
+    #logo: /images/sections/experiences/company3.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+  #  overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Help Desk Technician / Communications Focal Point
+    start: Jun 2023
+    end: Oct 2023
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Assisted customers in resolving system, network, and peripheral device issues.
+    - Managed customer support workflows and administered user accounts and privileges.
+    - Created and issued PKI access cards.
+
+- company:
+    name: United States Army
+    url: "https://www.example.com"
+    location: Multiple Locations
+    #logo: /images/sections/experiences/army.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+  #  overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+  positions:
+  - designation: Intelligence Operations Manager, Chief Warrant Officer 2 (Retired)
+    start: Aug 2020
+    end:  Oct 2023
+    responsibilities:
+    - Mentored personnel in the design, configuration, and operation of integrated digital command and intelligence systems networks. 
+    - Senior digital forensics trainer for eight multinational exercises, certifying over 100 personnel in digital forensics extraction and analysis.
+    - Primary planner and operations Officer for three multinational training iterations in support of NATO peacekeeping operations. 
+  - designation: Intelligence Technician
+    start: 2017
+    end:   2020
+    responsibilities:
+    - Officer in Charge for a 27-person fusion platoon, including an 8-person intelligence systems maintainer section responsible for client systems and digital network infrastructure.
+    - Operation and troubleshooting of network hardware to include BAT-750 SATCOM Antennas, MPM 1000 modems, LAN hub configurations, CISCO switches, KG-175 encryption devices. 
+    - Responsible for managing over $15 million in equipment and vehicles, with no losses.
+  - designation: Intelligence Technician
+    start: 2007
+    end:  2017
+    responsibilities:
+    - Officer in Charge for a 27-person fusion platoon, including an 8-person intelligence systems maintainer section responsible for client systems and digital network infrastructure.
+    - Operation and troubleshooting of network hardware to include BAT-750 SATCOM Antennas, MPM 1000 modems, LAN hub configurations, CISCO switches, KG-175 encryption devices. 
+    - Responsible for managing over $15 million in equipment and vehicles, with no losses.
+
