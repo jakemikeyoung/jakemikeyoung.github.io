@@ -77,7 +77,7 @@ experiences:
 
 - company:
     name: United States Army
-    url: "https://www.example.com"
+    url: "https://www.army.mil"
     location: Multiple Locations
     #logo: /images/sections/experiences/army.png
     # Can optionally show a different logo for dark theme
@@ -98,11 +98,11 @@ experiences:
     - Officer in Charge for a 27-person fusion platoon, including an 8-person intelligence systems maintainer section responsible for client systems and digital network infrastructure.
     - Operation and troubleshooting of network hardware to include BAT-750 SATCOM Antennas, MPM 1000 modems, LAN hub configurations, CISCO switches, KG-175 encryption devices. 
     - Responsible for managing over $15 million in equipment and vehicles, with no losses.
-  - designation: Intelligence Technician
+  - designation: Human Intelligence Collector
     start: 2007
     end:  2017
     responsibilities:
-    - Officer in Charge for a 27-person fusion platoon, including an 8-person intelligence systems maintainer section responsible for client systems and digital network infrastructure.
-    - Operation and troubleshooting of network hardware to include BAT-750 SATCOM Antennas, MPM 1000 modems, LAN hub configurations, CISCO switches, KG-175 encryption devices. 
-    - Responsible for managing over $15 million in equipment and vehicles, with no losses.
+    - Experienced strategic debriefer adept at conducting in-depth research within complex technical domains and analyzing new technologies to deliver comprehensive reports.
+    - Operation and troubleshooting of remote access SATCOM systems such AN/PSC-19 GRIPP system, as well as diverse client systems and peripherals.
+    - Extensive experience with digital forensic toolkits and biometric collection.
 
