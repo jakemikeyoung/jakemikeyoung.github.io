@@ -22,6 +22,7 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
+
   title: Jacob Young
   type: website
   description: Portfolio of Jacob Young.
