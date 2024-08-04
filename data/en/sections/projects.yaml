@@ -30,14 +30,14 @@ projects:
   #summary: Production-Grade Container Scheduling and Management.
   #tags: ["professional", "kubernetes", "cloud"]
 
-- name: LAMP
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2024 - Present"
-  repo: https://github.com/jakemikeyoung/hugo-toha.github.io
+#- name: LAMP
+ # logo: /images/sections/projects/tensorflow.png
+ # role: Developer
+ # timeline: "Jun 2024 - Present"
+ # repo: https://github.com/jakemikeyoung/hugo-toha.github.io
   #url: ""
-  summary: A LAMP project
-  tags: ["A placeholder", "for a project"]
+ # summary: A LAMP project
+ # tags: ["A placeholder", "for a project"]
 
 #- name: A sample academic paper
  # role: Team Lead
