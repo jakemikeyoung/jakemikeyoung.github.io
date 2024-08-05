@@ -1,10 +1,10 @@
 # section information
-section:
-  name: Projects
-  id: projects
-  enable: true
-  weight: 5
-  showOnNavbar: true
+#section:
+ # name: Projects
+ # id: projects
+ # enable: true
+  #weight: 5
+ # showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -20,7 +20,7 @@ section:
 #  filter: "hobby"
 
 # your projects
-projects:
+#projects:
 #- name: LAMP
  # logo: /images/sections/projects/kubernetes.png
  # role: Owner
