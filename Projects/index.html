@@ -3,50 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Home Lab Projects</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2> I enjoy playing around with various technologies in my home lab, doing some casual programming, and generally just
-        breaking things and fixing them. I guess this site counts as a side-project, with the caveat that I make no claims
-        of being a web developer. My site here is obviously simple. Just HTML and CSS.
-    </h2>
-    <h1> Home Lab </h1>
-    <h3>
-        This is my current setup in my office. I've made an active effort to downsize everything as much as possible.
-        Little heat, no noise. And my puppy Lou. Under my desk. Always.
-    </h3>
 
-    <img src="office.png" alt="Office Photo"/>
-    <img src="box.png" alt="Box Photo"/> <br>
-    <h3>My network runs through ATT fiber, with the 5Gb downlink configured in IP passthrough mode, as ATT doesn't support true bridging.
-    CAT6 runs from the ATT fiber router downstairs to my office upstairs, connecting to my protectli minivault (left) running
-    pfSense over a wireguard VPN. pfSense community from Netgate is open source, easy to use, and awesome. I've run my home network on it for a few years and 
-    have no plans to change. Google fiber and some other options have become available recently, so I may explore in the near future how I can ditch this ATT brick. 
-    <img src="pfense.png" alt="pfsense Photo"/> <br>
-    To the right are a managed Netgear switch and an HP EliteDesk 800 G3 Mini that I picked up for around $100 to replace my old (and noisy) desktop server. I have been
-    pretty impressed with it and I am considering buying a few more to cluster.
-    On top you can see my LAN access point and a 2TB SSD that I have configured on a NFS for machine backups and extra media storage. I have been tempted to invest in a 
-    new NAS, but honestly my family and I just don't watch enough movies and shows to justify it. I just want it.
-    </h3>
-<br>
-<h3> My home server (HP EliteDesk) runs on Fedora linux VM on top of proxmox. My home dashboard is configured with homarr. Its a great simple to use home dashboard with web GUI design customization (https://homarr.dev/). I don't have highly specific needs,
-    so it saves me the time of having to hand-jam everything in a yaml file. <br><br>
-    You can see the services I'm running below. It's pretty simple, and all are run in docker containers managed through portainer. 
-</h3>
-    <img src="dash.png" alt="Dash Photo"/>
-    <h3>I've gone through a bit of an 
-        evolution for my home services. Once upon a time, I had a mixture of multiple vms with services scattered between them. As I became more familiar with containers,
-        I began to rely pretty heavily on them for everything I do. Personally, for my uses, I prefer not having to worry about interactions between services, and if something breaks,
-        it breaks in a container and it is a quick troubleshoot. I've used a mixture of Docker and Podman, Docker Compose for the libraries, and now manage all containers with
-        portainer (https://www.portainer.io/). It's a great tool for managing containers, and I'm glad I switched. It has a great simple web GUI and keeps things nice
-        and organized. </h3>
-        <img src="portainer.png" alt="Portainer Photo"/><br>
-        <h3> qBittorrent works well and Home Assistant covers all my home automation, though I did have to use integration for Samsung SmartThings to get around some 
-            issues integrating certain devices. I am slowly upgrading my IOT/smart home devices so I can have more granular control.<br>
-            Last but not least, the most used service: Jellyfin. Easy to use open source media server. I used Plex for quite a while, but I really do prefer Jellyfin at
-            this point. Simple, stable, and I've had better performance overall.
-        </h3>
-        <img src="jellyfin.png" alt="jellyfin Photo"/>
+    <header>
+        <h1>Projects</h1>
+        <p>
+            I enjoy playing around with various technologies in my home lab, doing some casual programming, 
+            and generally just breaking things and fixing them. I guess this site counts as a side-project, 
+            with the caveat that I make no claims of being a web developer.
+        </p>
+    </header>
+
+    <section class="office">
+        <h2>My Office Setup / Home Lab</h2>
+        <div class="office-images">
+            <img src="office.png" alt="Office Photo">
+            <img src="box.png" alt="Box Photo">
+        </div>
+        <p>
+            This is my current setup in my office. I've made an active effort to downsize everything as much as possible.
+            Little heat, no noise. And my puppy Lou is always under my desk.
+        </p>
+    </section>
+
+    <section class="network">
+        <h2>My Network Setup</h2>
+        <div class="network-content">
+            <div class="network-left">
+                <p>
+                    My network runs through ATT fiber, with the 5Gb downlink configured in IP passthrough mode.
+                    CAT6 runs from the ATT fiber router downstairs to my office upstairs, connecting to my Protectli vault 
+                    running pfSense over a WireGuard VPN.
+                </p>
+                <div class="image-container">
+                    <img src="pfense.png" alt="pfSense Dashboard">
+                </div>
+            </div>
+    
+            <div class="network-right">
+                <div class="image-container">
+                    <img src="protectli.png" class="protectli-img" alt="Protectli Vault">
+                    <h3>Protectli Vault</h3>
+                </div>
+                <div class="image-container">
+                    <img src="switch.png" class="switch-img" alt="Netgear Managed Switch">
+                    <h3>Netgear Managed Switch</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="server">
+        <h2>Home Server & Services</h2>
+
+        <div class="server-content">
+            <div class="server-left">
+                <p>
+                    My home server is an HP EliteDesk 800 G3 Mini that I picked up for around $100 to replace my old, hot (and noisy) desktop server.
+                    I use a 2TB SSD, configured as an NFS, for machine backups and extra media storage.
+                </p>
+                <div class="image-row">
+                    <img src="nas.png" alt="NAS Photo">
+                    <img src="hp.png" alt="HP Mini Server Photo">
+                </div>
+            </div>
+        </div>
+        <br>The server runs on a Fedora linux VM on top of proxmox. 
+        My home dashboard is configured with homarr. Its a great simple to use home dashboard with web GUI design customization (https://homarr.dev/). 
+        I don't have highly specific needs, so it saves me the time of having to hand-jam everything in a yaml file. <br><br>
+        You can see the services I'm running below. It's pretty simple, and all are run in docker containers. 
+
+        <div class="full-width-image">
+            <img src="dash.png" alt="Dashboard Photo">
+        </div>
+
+        <div class="server-content">
+            <div class="server-left">
+                <p>
+                    <br>I've gone through a bit of an 
+                    evolution for my home services. Once upon a time, I had a mixture of multiple vms with services scattered between them. Over time I migrated to containers. 
+                    I prefer not having to worry about interactions between services, and if something breaks,
+                    it breaks in a container and is a quick troubleshoot. I've used a mixture of Docker and Podman, Docker Compose for all the available libraries, and now manage all containers with
+                    portainer (https://www.portainer.io/). It's a great tool for managing containers, and I'm glad I switched. It has a great simple web GUI and keeps things nice
+                    and organized. 
+                </p><br>
+            </div>
+        </div>
+
+
+        <div class="full-width-image">
+            <img src="portainer.png" alt="Portainer Photo">
+        </div>
+
+        <div class="server-content">
+            <div class="server-left">
+                <p>
+                    <br>qBittorrent works well and Home Assistant covers all my home automation, though I did have to use integration for Samsung SmartThings to get around some 
+                    issues integrating certain devices. I am slowly upgrading my IOT/smart home devices so I can have more granular control.
+                </p><br>
+                <p>     Last but not least, the most used service: Jellyfin. Easy to use open source media server. My Jellyfin server is connected to all my TVs 
+                    and computers throughout my house. I used Plex for quite a while, but I really do prefer Jellyfin at
+                    this point. Simple, stable, and I've had better performance overall. </p> <br>
+            </div>
+        </div>
+
+
+        <div class="full-width-image">
+            <img src="jellyfin.png" alt="Jellyfin Photo">
+        </div>
+
+    </section>
+
 </body>
 </html>

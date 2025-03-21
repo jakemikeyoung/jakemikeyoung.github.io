@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Lab Projects</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jake Young</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<<<<<<< HEAD
-=======
   <header class="landing">
     <nav class="navbar">
       <a href="#about">About</a>
@@ -19,93 +17,14 @@
         Projects
       </a>
     </nav>
->>>>>>> 603cf2d9c4c1527de905193a2bcc541715c38d59
 
-    <header>
-        <h1>Projects</h1>
-        <p>
-            I enjoy playing around with various technologies in my home lab, doing some casual programming, 
-            and generally just breaking things and fixing them. I guess this site counts as a side-project, 
-            with the caveat that I make no claims of being a web developer.
-        </p>
-    </header>
+    <img src="face.png" alt="Jake's Photo" class="face" />
+    <div class="intro">
+      <h1>Hi, I'm Jake</h1>
+      <h2>I am a technology enthusiast and IT professional.</h2>
+    </div>
+  </header>
 
-<<<<<<< HEAD
-    <section class="office">
-        <h2>My Office Setup / Home Lab</h2>
-        <div class="office-images">
-            <img src="office.png" alt="Office Photo">
-            <img src="box.png" alt="Box Photo">
-        </div>
-        <p>
-            This is my current setup in my office. I've made an active effort to downsize everything as much as possible.
-            Little heat, no noise. And my puppy Lou is always under my desk.
-        </p>
-    </section>
-
-    <section class="network">
-        <h2>My Network Setup</h2>
-        <div class="network-content">
-            <div class="network-left">
-                <p>
-                    My network runs through ATT fiber, with the 5Gb downlink configured in IP passthrough mode.
-                    CAT6 runs from the ATT fiber router downstairs to my office upstairs, connecting to my Protectli vault 
-                    running pfSense over a WireGuard VPN.
-                </p>
-                <div class="image-container">
-                    <img src="pfense.png" alt="pfSense Dashboard">
-                </div>
-            </div>
-    
-            <div class="network-right">
-                <div class="image-container">
-                    <img src="protectli.png" class="protectli-img" alt="Protectli Vault">
-                    <h3>Protectli Vault</h3>
-                </div>
-                <div class="image-container">
-                    <img src="switch.png" class="switch-img" alt="Netgear Managed Switch">
-                    <h3>Netgear Managed Switch</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="server">
-        <h2>Home Server & Services</h2>
-
-        <div class="server-content">
-            <div class="server-left">
-                <p>
-                    My home server is an HP EliteDesk 800 G3 Mini that I picked up for around $100 to replace my old, hot (and noisy) desktop server.
-                    I use a 2TB SSD, configured as an NFS, for machine backups and extra media storage.
-                </p>
-                <div class="image-row">
-                    <img src="nas.png" alt="NAS Photo">
-                    <img src="hp.png" alt="HP Mini Server Photo">
-                </div>
-            </div>
-        </div>
-        <br>The server runs on a Fedora linux VM on top of proxmox. 
-        My home dashboard is configured with homarr. Its a great simple to use home dashboard with web GUI design customization (https://homarr.dev/). 
-        I don't have highly specific needs, so it saves me the time of having to hand-jam everything in a yaml file. <br><br>
-        You can see the services I'm running below. It's pretty simple, and all are run in docker containers. 
-
-        <div class="full-width-image">
-            <img src="dash.png" alt="Dashboard Photo">
-        </div>
-
-        <div class="server-content">
-            <div class="server-left">
-                <p>
-                    <br>I've gone through a bit of an 
-                    evolution for my home services. Once upon a time, I had a mixture of multiple vms with services scattered between them. Over time I migrated to containers. 
-                    I prefer not having to worry about interactions between services, and if something breaks,
-                    it breaks in a container and is a quick troubleshoot. I've used a mixture of Docker and Podman, Docker Compose for all the available libraries, and now manage all containers with
-                    portainer (https://www.portainer.io/). It's a great tool for managing containers, and I'm glad I switched. It has a great simple web GUI and keeps things nice
-                    and organized. 
-                </p><br>
-            </div>
-=======
   <section class="summary" id="about">
     <div class="summary-left">
       <h2>Jacob Young</h2>
@@ -117,7 +36,7 @@
         troubleshooting systems, and maintaining secure infrastructures. Adept at
         balancing hands-on technical roles and communicating effectively with
         customers and stakeholders. Holds certifications including Cisco CCNA,
-        CompTIA A+, Network+, CySa+, Pentest+, Security+, ITIL 4 Foundation, ISC2 SSCP, and Red Hat RHCSA. Currently pursuing a masters in Information Assurance and Cyber Security.
+        CompTIA Security+, ITIL 4 Foundation, and Red Hat RHCSA.
       </p>
     </div>
 
@@ -204,20 +123,20 @@
     <article class="syscom">
       <h3>IT Specialist / Contract Site Lead</h3>
       <h4>Syscom</h4>
-      <p>October 2023 - June 2024<br />502nd Comm Squadron, Lackland AFB, San Antonio</p>
+      <p>October 2023 - July 2024<br />502nd Comm Squadron, Lackland AFB, San Antonio</p>
       <ul class="syscomlist">
-        <li>Resolved system, network, and peripheral device issues for customers, focusing on secure system operations.</li>
-        <li>Administered user accounts, privileges, and administrator credentials while ensuring compliance with security policies.</li>
+        <li>Installed new software releases, system upgrades, evaluated and installed patches, and resolved software-related problems.</li>
+        <li>Worked closely with network professionals and IT personnel to update cyber security measures, install hardware or software devices, and troubleshoot problems.</li>
         <li>Performed configuration, management, and troubleshooting.</li>
-        <li>Oversaw an 18-member team, managed hiring, timecards, and contractual requirements in coordination with government representatives.</li>
-        <li>Conducted system vulnerability assessments and implemented Security Technical Implementation Guides (STIGs).</li>
+        <li>Established work standards, methods, and controls for preventative, scheduled, and unscheduled maintenance actions.</li>
+        <li>Provided technical support to Service Desk Personnel and CSTs who provided administration support to their end-users’ workstations.</li>
       </ul>
     </article>
 
     <article class="rk">
       <h3>IT Specialist</h3>
       <h4>R&amp;K Enterprises</h4>
-      <p>June 2023 - Oct 2023<br />502nd Comm Squadron, Lackland AFB, San Antonio</p>
+      <p>June 2023 - Oct 2024<br />502nd Comm Squadron, Lackland AFB, San Antonio</p>
       <ul class="rklist">
         <li>Resolved system, network, and peripheral device issues for customers.</li>
         <li>Managed customer support workflows and administered user accounts and privileges.</li>
@@ -246,10 +165,9 @@
         <article>
           <h3>Intelligence Technician</h3>
           <ul class="armylist2">
-            <li>Led a 27-member team in maintaining classified network systems.</li>
-            <li>Operation and troubleshooting network hardware to include BAT-750 SATCOM Antennas, MPM 1000 modems, LAN hub configurations, CISCO switches, and KG-175 encryption devices.</li>
-            <li>Oversaw hardware maintenance, repair, local system, and network administration, system readiness evaluation, and sanitization of hardware exposed to classified media.</li>
-            <li>Responsible for managing over $15 million in equipment and vehicles with no losses.</li>
+            <li>Mentored personnel in the design, configuration, and operation of integrated digital command and intelligence systems networks.</li>
+            <li>Senior digital forensics trainer for eight multinational exercises, certifying over 100 personnel in digital forensics extraction and analysis.</li>
+            <li>Primary planner and operations Officer for three multinational training iterations in support of NATO peacekeeping operations.</li>
           </ul>
         </article>
   
@@ -266,32 +184,54 @@
       <div class="army-right">
         <div class="armyimage1">
           <img src="jakearmy.JPG" alt="Army photo 1" />
->>>>>>> 603cf2d9c4c1527de905193a2bcc541715c38d59
         </div>
+        <img src="jakearmy2.jpeg" alt="Army photo 2" />
+      </div>
+    </div>
+  </section>
 
 
-        <div class="full-width-image">
-            <img src="portainer.png" alt="Portainer Photo">
-        </div>
+  <section class="education" id="education">
+    <h2 class="educationtitle">Education</h2>
+  
+    <article class="school">
+      <h3>Western Governors University</h3>
+      <img class="school-icon" src="wgu.png" alt="WGU" />
+      <div>
+        <p>MS, Cybersecurity and Information Assurance (Graduating June 2025) <br>BS, Cybersecurity and Information Assurance</p>
+      </div>
+    </article>
+  
+    <article class="school">
+      <h3>Arizona State University</h3>
+      <img class="school-icon" src="asu.png" alt="ASU" />
+      <div>
+        <p>BA, History</p>
+      </div>
+    </article>
+  </section>
 
-        <div class="server-content">
-            <div class="server-left">
-                <p>
-                    <br>qBittorrent works well and Home Assistant covers all my home automation, though I did have to use integration for Samsung SmartThings to get around some 
-                    issues integrating certain devices. I am slowly upgrading my IOT/smart home devices so I can have more granular control.
-                </p><br>
-                <p>     Last but not least, the most used service: Jellyfin. Easy to use open source media server. My Jellyfin server is connected to all my TVs 
-                    and computers throughout my house. I used Plex for quite a while, but I really do prefer Jellyfin at
-                    this point. Simple, stable, and I've had better performance overall. </p> <br>
-            </div>
-        </div>
 
-
-        <div class="full-width-image">
-            <img src="jellyfin.png" alt="Jellyfin Photo">
-        </div>
-
-    </section>
-
+  <section class="contact" id="contact">
+    <hr />
+    <div class="email">
+      <strong>Contact Me</strong>
+    </div>
+    <div class="email">jakemiyoung@gmail.com</div>
+    <div class="linkedin">
+      <a
+        href="https://www.linkedin.com/in/jacobmiyoung"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="linkedin.png"
+          width="80"
+          height="60"
+          alt="LinkedIn Profile for Jake"
+        />
+      </a>
+    </div>
+  </section>
 </body>
 </html>
